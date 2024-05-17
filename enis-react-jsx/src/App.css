@@ -27,6 +27,9 @@
   border-radius: 100%;
   border: none;
 }
+.unclicked {
+  cursor: crosshair;
+}
 .numbers {
   display: flex;
   justify-content: center;
