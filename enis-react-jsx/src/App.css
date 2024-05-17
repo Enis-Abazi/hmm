@@ -1,7 +1,59 @@
 .App {
   text-align: center;
 }
-
+.exitContainer {
+  display: flex;
+  justify-content: end;
+  margin: 0 200px 0 0;
+}
+.exit {
+  border-radius: 100%;
+  width: 50px;
+  padding: 10px !important;
+  background: skyblue !important;
+  font-size: 18px !important;
+  font-family: sans-serif !important;
+}
+.inactive {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.active {
+  background: red;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 100%;
+  border: none;
+}
+.numbers {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  padding: 20px 0;
+}
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  column-gap: 20px;
+  padding: 20px 0;
+}
+p {
+  font-size: 15px;
+  color: blue;
+  text-align: center;
+  padding: 20px 0;
+}
+button {
+  background-color: red;
+  padding: 10px 20px;
+  color: white;
+  width: 100px;
+  cursor: pointer;
+  border: none;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
