@@ -85,3 +85,9 @@
   cursor: pointer;
   outline: none;
 }
+.saveButton {
+  background-color: blueviolet !important;
+  padding: 8px 12px !important;
+  color: white !important;
+  text-align: center !important;
+}

@@ -68,7 +68,7 @@ const Task = () => {
                       }
                     />
                     <button
-                      className="editButton"
+                      className="editButton saveButton"
                       onClick={() => saveTask(index, task)}
                     >
                       Save
